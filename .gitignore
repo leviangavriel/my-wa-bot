@@ -1,17 +1,15 @@
-# Folder dependensi Node.js (ukuran besar, tidak perlu diunggah)
+# Menyembunyikan folder dependensi
 node_modules/
-# File log dari npm
+
+# Menyembunyikan file rahasia/environment variables
+.env
+.env.local
+
+# Menyembunyikan log & cache
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
-# Sesi login WhatsApp (KEAMANAN: Jangan sampai terunggah ke GitHub!)
-.wwebjs_auth/
-.wwebjs_cache/
-# File variabel lingkungan lokal (jika ada)
-.env
+.vercel
 
-# managed by open-wa
-**.data.json
-**.node-persist**
-**_IGNORE_**
-# end managed by open-wa
+# Menyembunyikan file OS
+.DS_Store
+Thumbs.db
