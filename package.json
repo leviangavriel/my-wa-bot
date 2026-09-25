@@ -1,0 +1,13 @@
+{
+  "name": "my-wa-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp khusus grup chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
